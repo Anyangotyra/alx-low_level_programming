@@ -1,1 +1,1 @@
- 0x00. C - Hello, World tasks
+gcc -E $CFILE >> c
