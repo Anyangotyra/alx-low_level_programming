@@ -1,19 +1,25 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
+
 /**
  * main - main block
- * Description: Get a random number and check its last digit, compare it with 5
- * Return: 0
+ * Description : alphabet times ten in lower case
  */
-int main(void)
-{
-	char c = 'a';
 
-	while (c <= 'z')
+void print_alphabet_x10(void)
+
+{
+	char a;
+	int i = 0;
+
+	while (i < 10)
 	{
-		putchar(c);
-		c++;
+		a = 'a';
+		while (a <= 'z')
+		{
+			_putchar(a);
+			a++;
+		}
+		_putchar('\n');
+		i++;
 	}
-	putchar('\n');
-	return (0);
 }
