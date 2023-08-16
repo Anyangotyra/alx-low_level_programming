@@ -5,7 +5,7 @@
  * main - function prototypes go down here
  */
 
-int _putchar(char c);
+int _putchar(char);
 
 void print_alphabet(void);
 

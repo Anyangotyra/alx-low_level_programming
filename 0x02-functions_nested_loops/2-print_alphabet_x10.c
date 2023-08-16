@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - main block
- * Description : alphabet times ten in lower case
+ * print_alphabet_x10 - prints alphabet in lower case
+ * ten times
  */
 
 void print_alphabet_x10(void)
