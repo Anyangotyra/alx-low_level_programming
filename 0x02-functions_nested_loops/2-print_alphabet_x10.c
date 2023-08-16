@@ -1,12 +1,19 @@
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 /**
-* add - Check Holberton
-* @a: An integer a
-* @b: An integer b
-* Description: Function that adds two integers and returns the result
-* Return: Result to add a and b
-*/
-int add(int a, int b)
+ * main - main block
+ * Description: Get a random number and check its last digit, compare it with 5
+ * Return: 0
+ */
+int main(void)
 {
-return (a + b);
+	char c = 'a';
+
+	while (c <= 'z')
+	{
+		putchar(c);
+		c++;
+	}
+	putchar('\n');
+	return (0);
 }
