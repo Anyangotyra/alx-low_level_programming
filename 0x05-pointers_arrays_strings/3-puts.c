@@ -1,20 +1,16 @@
 #include "main.h"
 
-/**
- * _puts - Write a function that prints a string, followed by a new line, to
- * stdout.
- *
- * @str: This is my input string
- *
- */
 
+/**
+ * _puts - a function that prints a string
+ * @str: string input
+ * Return: string
+ */
 void _puts(char *str)
 {
-	int index;
-
-	for (index = 0; str[index] != '\0'; index++)
+	for (; *str != '\0'; str++)
 	{
-		_putchar(str[index]);
+		_putchar(*str);
 	}
 	_putchar('\n');
 }
